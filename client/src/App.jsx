@@ -9,12 +9,13 @@ import PropsInFunction from './PropsInFunctional'
 import PropsInClass from './PropsInClass'
 import GetInputValue from './GetInputValue'
 import HideShowTog from './HideShowTog'
+import FormHandling from './FormHandling'
 
 const App = () => {
   return (
     <div>
         <h1>App</h1>
-        <HideShowTog />
+       <FormHandling />
     </div>
   )
 }
