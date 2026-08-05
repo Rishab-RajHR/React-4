@@ -7,6 +7,5 @@ import File from './File.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <File />
   </StrictMode>,
 )
