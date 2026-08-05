@@ -3,6 +3,7 @@ import FuncComponent from './FuncComponent'
 import ClassComponent from './ClassComponent'
 import JSX from './JSX'
 import ClickEvent from './ClickEvent'
+import StateInFunc from './StateInFunc'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <ClassComponent />
         <JSX />
         <ClickEvent />
+        <StateInFunc />
     </div>
   )
 }
