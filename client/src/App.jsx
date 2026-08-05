@@ -6,14 +6,15 @@ import ClickEvent from './ClickEvent'
 import StateInFunc from './StateInFunc'
 import StateInClass from './StateInClass'
 import PropsInFunction from './PropsInFunctional'
+import PropsInClass from './PropsInClass'
 
 const App = () => {
-  const [firstName, setName] = useState("Tillu");
+  const [firstName, setState] = useState("Aman");
   return (
     <div>
         <h1>App</h1>
-        <PropsInFunction name={firstName} />
-        <button onClick={() => {setName('Alex Pandian')}}>Click Me</button>
+        <PropsInClass name={firstName} email={"til12@gmail.com"}/>
+        <button onClick={() => setState("Alex Pandian")}>Click Me</button>
     </div>
   )
 }
