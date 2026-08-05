@@ -8,12 +8,13 @@ import StateInClass from './StateInClass'
 import PropsInFunction from './PropsInFunctional'
 import PropsInClass from './PropsInClass'
 import GetInputValue from './GetInputValue'
+import HideShowTog from './HideShowTog'
 
 const App = () => {
   return (
     <div>
         <h1>App</h1>
-         <GetInputValue />
+        <HideShowTog />
     </div>
   )
 }
