@@ -4,16 +4,14 @@ import ClassComponent from './ClassComponent'
 
 import PassFuncProps from './PassFuncProps'
 import New from './New'
+import Fragment from './Fragment'
 
 const App = () => {
-  function getData(){
-      alert("Hello From App.js")
-  }
+
   return (
     <div>
         <h1>App</h1>
-        <PassFuncProps data={getData}/>
-        <New data={getData} />
+        <Fragment />
     </div>
   )
 }
