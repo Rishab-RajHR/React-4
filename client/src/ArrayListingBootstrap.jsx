@@ -28,12 +28,13 @@ const ArrayListingBootstrap = () => {
         <tbody>
           {
              employeeInfo.map((item, i) => 
+               item.name === "Alex" ?
                 <tr key={i}>
                     <td> {i+1} </td>
                     <td> {item.name} </td>
                     <td> {item.email} </td>
                     <td> {item.contact} </td>
-                </tr>
+                </tr> : null
             )
           }
           </tbody>
