@@ -1,11 +1,11 @@
 import React from 'react'
-import UseCallBackHook from './UseCallBackHook'
+import UseContextHook from './UseContextHook'
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <UseCallBackHook />
+       <UseContextHook />
     </div>
   )
 }
