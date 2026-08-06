@@ -1,22 +1,13 @@
-import React, { Component } from 'react'
-import PureComponents from './PureComponents'
+import React from 'react'
+import UseMemoHook from './UseMemoHook'
 
-class App extends Component {
-  constructor() {
-     super();
-     this.state = {
-        count : 0
-     }
-  }
-  render() {
-    return (
-      <div>
-         <h1>App File</h1>
-         <PureComponents count={this.state.count} />
-         <button onClick={() => this.setState({count : 1})}>Counter</button>
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div>
+       <h2>App</h2>
+       <UseMemoHook />
+    </div>
+  )
 }
 
 export default App
