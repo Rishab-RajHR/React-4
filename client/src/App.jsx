@@ -6,14 +6,16 @@ import PassFuncProps from './PassFuncProps'
 import New from './New'
 import FormValidation from './FormValidation'
 import Constructor from './Constructor'
+import Render from './Render'
 
 
 const App = () => {
-
+  const [name, setName] = useState("Alex");
   return (
     <div>
         <h1>App</h1>
-        <Constructor />
+         <Render data={name} />
+         <button onClick={() => setName("Basil")}>Click Me</button>
     </div>
   )
 }
