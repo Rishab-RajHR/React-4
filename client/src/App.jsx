@@ -1,12 +1,11 @@
 import React from 'react'
-import ArrayListingBootstrap from './ArrayListingBootstrap'
-
+import NestedListNestedArray from './NestedListNestedArray'
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <ArrayListingBootstrap />
+       <NestedListNestedArray />
     </div>
   )
 }
