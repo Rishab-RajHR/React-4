@@ -1,12 +1,11 @@
 import React from 'react'
-import ForwardRefHook from './ForwardRefHook'
-
+import ArrayListing from './ArrayListing'
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <ForwardRefHook />
+       <ArrayListing />
     </div>
   )
 }
