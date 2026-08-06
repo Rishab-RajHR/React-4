@@ -17,10 +17,19 @@ const ArrayListingBootstrap = () => {
       {/* <button type="button" class="btn btn-success" onClick={() => alert("Hello From Bootstrap")}>Success</button> */}
       
       <Table variant='dark' striped bordered hover>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
         <tbody>
           {
              employeeInfo.map((item, i) => 
                 <tr key={i}>
+                    <td> {i+1} </td>
                     <td> {item.name} </td>
                     <td> {item.email} </td>
                     <td> {item.contact} </td>
