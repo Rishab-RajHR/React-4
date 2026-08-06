@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import FuncComponent from './FuncComponent'
 import ClassComponent from './ClassComponent'
 
-
-import ComponentDidUpdate from './ComponentDidUpdate'
+import ShouldComponentUpdate from './ShouldComponentUpdate'
 
 
 const App = () => {
@@ -11,7 +10,7 @@ const App = () => {
   return (
     <div>
         <h1>App</h1>
-        <ComponentDidUpdate />
+        <ShouldComponentUpdate />
     </div>
   )
 }
