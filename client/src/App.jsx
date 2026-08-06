@@ -1,11 +1,12 @@
 import React from 'react'
-import NestedListNestedArray from './NestedListNestedArray'
+import ReUseComponent from './ReUseComponent'
+
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <NestedListNestedArray />
+       <ReUseComponent />
     </div>
   )
 }

@@ -33,6 +33,7 @@ const NestedListNestedArray = () => {
        <Table variant='dark' striped bordered striped>
         <thead>
           <tr>
+              <th>ID</th>
               <th>Name</th>
               <th>Email</th>
               <th>Address</th>
@@ -42,6 +43,7 @@ const NestedListNestedArray = () => {
              {
                 employeeInfo.map((item, i) => 
                    <tr key={i}>
+                      <td> {i+1} </td>
                       <td> {item.name} </td>
                       <td> {item.email} </td>
                       <td> 
