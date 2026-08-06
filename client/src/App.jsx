@@ -1,17 +1,22 @@
-import React, { useState } from 'react'
-import UseEffectConditions from './UseEffectConditions'
+import React, { Component } from 'react'
+import PureComponents from './PureComponents'
 
-const App = () => {
-  const [age, setAge] = useState(22);
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-        <h1>App</h1>
-        <UseEffectConditions age={age} count={count} />
-        <button onClick={() => setAge(age + 1)}>Update Age</button>
-        <button onClick={() => setCount(count + 1)}>Update Count</button>
-    </div>
-  )
+class App extends Component {
+  constructor() {
+     super();
+     this.state = {
+        count : 0
+     }
+  }
+  render() {
+    return (
+      <div>
+         <h1>App File</h1>
+         <PureComponents count={this.state.count} />
+         <button onClick={() => this.setState({count : 1})}>Counter</button>
+      </div>
+    )
+  }
 }
 
 export default App
