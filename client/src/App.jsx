@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import PostApi from './PostApi'
-import DeleteApiMethod from './DeleteApiMethod'
+import PreFilledFormData from './PreFilledFormData'
 
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
   return (
     <div>
        <h2>App</h2>
-       <DeleteApiMethod />
+       <PreFilledFormData />
     </div>
   )
 }
