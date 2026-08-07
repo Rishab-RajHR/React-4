@@ -1,13 +1,12 @@
 import React from 'react'
-import UnControlled from './UnControlled'
-
+import UseReducerHook from './UseReducerHook'
 
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <UnControlled />
+       <UseReducerHook />
     </div>
   )
 }
