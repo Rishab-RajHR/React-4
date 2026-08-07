@@ -1,12 +1,12 @@
 import React from 'react'
-import ReUseComponent from './ReUseComponent'
+import LiftingStateUp from './LiftingStateUp'
 
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <ReUseComponent />
+       <LiftingStateUp />
     </div>
   )
 }
