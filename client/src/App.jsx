@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import CodeSplitting from './CodeSplitting'
-import APICalling from './APICalling'
+import PostApi from './PostApi'
 
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
   return (
     <div>
        <h2>App</h2>
-       <APICalling />
+       <PostApi />
     </div>
   )
 }
