@@ -1,12 +1,14 @@
 import React from 'react'
-import UseReducerHook from './UseReducerHook'
+import OnClick from './OnClick'
+import OnMouseOver from './OnMouseOver'
 
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <UseReducerHook />
+       <OnClick />
+       <OnMouseOver />
     </div>
   )
 }
