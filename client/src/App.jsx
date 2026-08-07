@@ -1,12 +1,13 @@
 import React from 'react'
-import LiftingStateUp from './LiftingStateUp'
+import Controlled from './Controlled'
+
 
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <LiftingStateUp />
+        <Controlled />
     </div>
   )
 }
