@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
-import MyCounter from './MyCounter'
-
+import React from 'react'
+import AxiosGetRequest from './Axios/AxiosGetRequest'
 
 function App() {
 
   return (
     <div>
        <h2>App</h2>
-       <MyCounter />
+       <AxiosGetRequest />
     </div>
   )
 }
