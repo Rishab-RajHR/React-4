@@ -1,14 +1,12 @@
 import React from 'react'
-import OnClick from './OnClick'
-import OnMouseOver from './OnMouseOver'
+import PreviousState from './PreviousState'
 
 
 function App() {
   return (
     <div>
        <h2>App</h2>
-       <OnClick />
-       <OnMouseOver />
+       <PreviousState />
     </div>
   )
 }
