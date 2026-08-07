@@ -1,13 +1,12 @@
 import React from 'react'
-import AxiosGetRequest from './Axios/AxiosGetRequest'
-import AxiosPostRequest from './Axios/AxiosPostRequest'
+import AxiosPutRequest from './Axios/AxiosPutRequest'
 
 function App() {
 
   return (
     <div>
        <h2>App</h2>
-       <AxiosPostRequest />
+       <AxiosPutRequest />
     </div>
   )
 }
