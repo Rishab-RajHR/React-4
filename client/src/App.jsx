@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import PreviousProps from './PreviousProps'
-import StateWithObject from './StateWithObject'
+import CodeSplitting from './CodeSplitting'
 
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
   return (
     <div>
        <h2>App</h2>
-       <StateWithObject />
+       <CodeSplitting/>
     </div>
   )
 }
