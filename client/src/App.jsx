@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import Home from './ReactRouterDom/Home';
 import About from './ReactRouterDom/About';
 import Navbar from './ReactRouterDom/Navbar';
+import Employee from './ReactRouterDom/Employee';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Routes>
                <Route path='/' element={<Home />} />
                <Route path='/about' element={<About />} />
+               <Route path='/employee/:name/:age' element={<Employee />}/>
                {/* <Route path='/*' element={<PageNotFound />} /> */}
                <Route path='/*' element={<Navigate to='/' />} /> 
           </Routes>
