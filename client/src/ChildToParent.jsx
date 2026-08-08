@@ -12,4 +12,5 @@ const ChildToParent = (prop) => {
   )
 }
 
+
 export default ChildToParent

@@ -6,7 +6,7 @@ const Controlled = () => {
     <>
        <h2>Controlled Components In React JS</h2>
       {/* <input type='text' value={item} onChange={(e) => setItem(e.target.value)} /> */}
-      <input type='text' defaultValue="Farzeen" onChange={(e) => setItem(e.target.value)} />
+      <input type='text' defaultValue="Tovino" onChange={(e) => setItem(e.target.value)} />
 
       <h3>Value: {item} </h3>
     </>

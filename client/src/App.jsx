@@ -1,13 +1,18 @@
 import React from 'react'
-import AxiosPutRequest from './Axios/AxiosPutRequest'
-import AxiosDeleteRequest from './Axios/AxiosDeleteRequest'
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './ReactRouterDom/Home';
+import About from './ReactRouterDom/About';
 function App() {
 
   return (
     <div>
        <h2>App</h2>
-       <AxiosDeleteRequest />
+       <BrowserRouter>
+          <Routes>
+               <Route path='/home' element={<Home />} />
+               <Route path='/about' element={<About />} />
+          </Routes>
+       </BrowserRouter>
     </div>
   )
 }
