@@ -12,6 +12,8 @@ import Company from './ReactRouterDom/Company';
 import Admin from './ReactRouterDom/Admin';
 import Faculty from './ReactRouterDom/Faculty';
 import Student from './ReactRouterDom/Student';
+import Login from './ReactRouterDom/Login';
+import Protected from './ReactRouterDom/Protected';
 
 function App() {
 
@@ -21,7 +23,8 @@ function App() {
        <BrowserRouter>
          <Navbar />
           <Routes>
-               <Route path='/' element={<Home />} />
+               {/* <Route path='/' element={<Home />} /> */}
+               <Route path='/' element={<Protected Component={Home} />} />
                <Route path='/about' element={<About />} />
                <Route path='/contact' element={<Contact />}/>
                <Route path='/search' element={<Search />}/>
@@ -31,6 +34,7 @@ function App() {
                    <Route path='student' element={<Student />}/>
               </Route>
                <Route path='/employee/:name/:age' element={<Employee />}/>
+               <Route path='/login' element={<Login />}/>
                {/* <Route path='/*' element={<PageNotFound />} /> */}
                <Route path='/*' element={<Navigate to='/' />} /> 
           </Routes>
