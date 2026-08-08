@@ -7,6 +7,7 @@ import Employee from './ReactRouterDom/Employee';
 import Contact from './ReactRouterDom/Contact';
 
 import './App.css';
+import Search from './ReactRouterDom/Search';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
                <Route path='/' element={<Home />} />
                <Route path='/about' element={<About />} />
                <Route path='/contact' element={<Contact />}/>
+               <Route path='/search' element={<Search />}/>
                <Route path='/employee/:name/:age' element={<Employee />}/>
                {/* <Route path='/*' element={<PageNotFound />} /> */}
                <Route path='/*' element={<Navigate to='/' />} /> 

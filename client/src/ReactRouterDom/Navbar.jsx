@@ -5,9 +5,10 @@ const Navbar = () => {
   return (
     <>
      <ul className='nav'>
-        <li><NavLink className='nav-link' style={({isActive}) => ({backgroundColor: isActive ? 'aqua' : 'yellow' })} to='/home'>Home</NavLink></li>
-        <li><NavLink className='nav-link' style={({isActive}) => ({backgroundColor: isActive ? 'aqua' : 'yellow' })} to='/about'>About</NavLink></li>
-        <li><NavLink className='nav-link' style={({isActive}) => ({backgroundColor: isActive ? 'aqua' : 'yellow' })} to='/contact'>Contact</NavLink></li>
+        <li><NavLink className='nav-link' to='/home'>Home</NavLink></li>
+        <li><NavLink className='nav-link' to='/about'>About</NavLink></li>
+        <li><NavLink className='nav-link' to='/contact'>Contact</NavLink></li>
+        <li><NavLink className='nav-link' to='/search'>Search</NavLink></li> 
      </ul>
     </>
   )
