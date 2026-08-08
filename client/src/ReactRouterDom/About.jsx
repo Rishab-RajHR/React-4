@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
        <h2>About</h2>
-       <li><Link to='/employee/alex/22'>Alex</Link></li>
+       <li><Link to='/employee/alex/23' state={{name:'alex pandian', age: 24}}>Alex</Link></li>
        <li><Link to='/employee/tovino/24'>Tovino</Link></li>
     </>
   )
